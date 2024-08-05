@@ -24,4 +24,8 @@ public class Book {
     public void setYearPublic(int yearPublic) {
         this.yearPublic = yearPublic;
     }
+
+    public String toString() {
+        return getTitle() + " " + getAuthor() + " " + getYearPublic();
+    }
 }
