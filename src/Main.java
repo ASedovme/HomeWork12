@@ -19,6 +19,7 @@ public class Main {
 
         System.out.println(threeBook);
 
+        System.out.println(twoBook.equals(threeBook));
 
 
     }
