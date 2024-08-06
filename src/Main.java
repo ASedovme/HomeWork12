@@ -15,13 +15,11 @@ public class Main {
         System.out.println("oneBook = " + oneBook);
         System.out.println("twoBook = " + twoBook);
 
-        System.out.println(oneBook.equals(twoBook));
-        System.out.println(oneAuthor.equals(twoAuthor));
+        Book threeBook = new Book("Хождения", twoAuthor, 1982);
 
-        if (oneBook.hashCode() == twoBook.hashCode()){
-            System.out.println("Одинаковые книги");
-        }else {
-            System.out.println("Разные книги");
-        }
+        System.out.println(threeBook);
+
+
+
     }
 }
